@@ -1,0 +1,17 @@
+Download pfSense
+
+1. Install VBOX v5
+$ ./install-vbox.sh
+
+2. Download the pfSense ISO
+
+3. Run the create VBOX image script to create the bare iso
+./create-pfSense-vbox.sh pfsense
+
+VBoxManage startvm $vm --type headless
+
+4. Login to the VBOX pfSense image (using remote desktop)
+
+7. Setup VBox to start VMs automatically
+
+http://askubuntu.com/questions/404665/how-to-start-virtual-box-machines-automatically-when-booting
